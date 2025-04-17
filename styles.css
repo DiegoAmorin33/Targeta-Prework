@@ -1,0 +1,78 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	left: 30px;
+	top: 80px;
+	right: 60px;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+.postcard-header h1 {
+	font-family: Gloria Hallelujah;
+	width: 200px;
+	margin-right: auto;
+	position: relative;
+	bottom: 20px;
+}
+
+.postcard-body {
+	display: flex;
+	position: relative;
+	bottom: 10%;
+}
+
+.body-left p:first-child {
+	margin-top: none;
+}
+
+.body-left {
+	font-family: Winky Sans;
+	top: 10%;
+	padding: 5px;
+	bottom: 20%;
+}
+
+.body-right {
+	padding: 15px;
+}
+
+input {
+	color: gray;
+	border: none;
+	border-bottom: 2px solid gray;
+}
+
+p {
+	font-style: italic;
+	font-size: 15px;
+	bottom: 20%;
+}
+
+.postcard-footer {
+	text-align: center;
+	position: relative;
+	bottom: 10%;
+}
+
+button {
+	background-color: darkgray;
+	padding: 5px;
+}
